@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   getVersionMessage: async (releasePlan) => {
     // Get packages that have explicit changesets (not just dependency updates)
     // releasePlan.changesets contains the changesets being applied
